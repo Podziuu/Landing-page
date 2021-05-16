@@ -22,6 +22,7 @@
 
 p {
     font-size: 1.5rem;
+
 }
 
 .container {
@@ -53,5 +54,8 @@ h2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    p {
+        text-align: center;
     }
 }
