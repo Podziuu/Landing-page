@@ -42,3 +42,16 @@ h2 {
     width: 500px;
     margin-right: 1rem;
 }
+
+@media (max-width: 900px) {
+    #cover {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
