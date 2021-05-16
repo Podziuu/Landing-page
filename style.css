@@ -10,6 +10,8 @@ body {
     background-color: #2F303A;
     font-family: Poppins, sans-serif;
     color: white;
+    overflow: hidden;
+    min-height: 100vh;
 }
 
 nav {
@@ -41,4 +43,16 @@ li {
 li a {
     color: white;
     text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-grow: 1;
+    height: 100%;
 }
