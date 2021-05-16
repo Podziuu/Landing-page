@@ -1,0 +1,44 @@
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: #202027;
+    margin: .5rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    margin-bottom: .3rem;
+    width: 45px;
+}
+
+#icon-section {
+    display: flex;
+    margin: 3rem 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 70vh;
+    margin-top: 7rem;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#cover {
+    width: 500px;
+    margin-right: 1rem;
+}
