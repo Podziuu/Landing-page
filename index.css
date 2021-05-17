@@ -8,7 +8,8 @@ body {
 
 .container {
     margin-top: 8.5rem;
-    height: 100vh;
+    position: relative;
+    bottom: 0;
 }
 
 #girl {
@@ -61,8 +62,7 @@ p {
     position: absolute;
     bottom: -50px;
     right: -200px;
-    flex-grow: 1;
-    overflow:hidden;
+    z-index: -1;
 }
 
 .circle-3 {
@@ -89,6 +89,9 @@ p {
     #header {
         margin-top: 10rem;
     }
+    .circle-2 {
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -97,4 +100,6 @@ p {
         align-items: center;
         margin: 0 auto;
     }
+
+
 }
